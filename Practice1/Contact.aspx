@@ -29,13 +29,15 @@
           <asp:Literal ID="Literal1" runat="server"></asp:Literal>
       </div>
          
-      <div class="box">
+      <div class="column">
           <h2>Map</h2>
           <p>Will put the map around here</p>
       </div>
-         
+       
+    </div>  
     </div>
-    </div>
+        
+    
     </form>
 </asp:Content>
 
