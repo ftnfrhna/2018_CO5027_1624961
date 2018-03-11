@@ -51,7 +51,7 @@ li a:hover:not(.active) {
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+.box {
     float: left;
     width: 50%;
     padding: 20px;
