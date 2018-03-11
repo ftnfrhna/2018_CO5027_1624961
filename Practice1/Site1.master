@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site1.master.cs" Inherits="Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="css/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div class="header">
+      <h1>Laptop Case</h1>
+    </div>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="Contact.aspx">Contact</a></li>
+      <li><a href="#Login">Login</a></li>
+    </ul>
+
+    <div>
+        <asp:ContentPlaceHolder id="body" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>
