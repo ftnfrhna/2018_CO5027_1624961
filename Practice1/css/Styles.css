@@ -20,8 +20,8 @@ ul {
     margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: #8080ff;
     text-align: center;
+    display: inline-block;
 }
 
 li {
@@ -36,40 +36,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #ccccff;
-}
-
-
-
 /*End of Navigation Bar*/
 
-/*Contact Page*/
 
-* {
-    box-sizing: border-box;
+#map{
+    height: 80px;
+    width: 20%;
 }
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 20px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.container {
-    text-align: center;
-    border: 0px solid;
-    width: 1000px;
-    margin: 0 auto;
-}
-
  
