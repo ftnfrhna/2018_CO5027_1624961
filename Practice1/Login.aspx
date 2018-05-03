@@ -6,9 +6,8 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" Runat="Server">
 
-<form id="form1" runat="server">
-
-        <h2>&nbsp;</h2>
+    <form id="form1" runat="server">
+   
         <h2>Login</h2>
         <br />
         <asp:Label ID="lblUser" runat="server" Text="Username:"></asp:Label>

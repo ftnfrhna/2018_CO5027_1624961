@@ -8,7 +8,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="body" Runat="Server">
     <form id="form1" runat="server">
        
-      <div class="column">
+          <section class="container">
           <h2>Message Form</h2>
           <asp:Label ID="lblSubject" runat="server" Text="Subject"></asp:Label>
           <br />
@@ -27,12 +27,11 @@
           <br />
           <br />
           <asp:Literal ID="Literal1" runat="server"></asp:Literal>
-      </div>
-         
-     
+      
+         <div class="one">
           <h2>Map</h2>
           <div id="map"></div>
-
+          
           <script>
               function myMap() {
                   var myLatLng = { lat: 4.8857309, lng: 114.9316692 };
@@ -55,6 +54,8 @@
           <script src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_jpb_Bcoe2JUtfBP4qu3CP7pZ09KmK_w&callback=myMap">
 
           </script>
+             </div>
+        </section>
       </form>
 </asp:Content>
 

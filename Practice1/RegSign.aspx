@@ -7,7 +7,8 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="body" Runat="Server">
     <form id="form1" runat="server">
 
-        <h2>&nbsp;</h2>
+        <section class="border">
+        <div class="one">
         <h2>Login</h2>
         <br />
         <asp:Label ID="lblUser" runat="server" Text="Username:"></asp:Label>
@@ -27,8 +28,9 @@
         <br />
         <br />
         <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
+        </div>
 
-
+    <div class="two">
     <h2>Register</h2>
 
     <p>Please fill in the form to create an account.</p>
@@ -53,6 +55,7 @@
     <br />
 
     <asp:Literal ID="litRegisterError" runat="server"></asp:Literal>
-    </form>
-
+    </div>
+    </section>
+        </form>
 </asp:Content>
