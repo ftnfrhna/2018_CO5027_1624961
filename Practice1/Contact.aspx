@@ -52,8 +52,6 @@
           </script>
 
           <script src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_jpb_Bcoe2JUtfBP4qu3CP7pZ09KmK_w&callback=myMap">
-
-          </script>
              </div>
         </section>
       </form>
