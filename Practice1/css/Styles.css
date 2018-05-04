@@ -83,14 +83,14 @@
 }
 
 .repeater ul li{
-    height: 500px;
+    height: 400px;
     margin-top:40px;
 }
 
 .repeater li{
-    display:inline-block;
+    display:table;
+    margin: 40px;
     float:left;
-    width:30%;
 }
 
 .repeater ul li a{
@@ -107,8 +107,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    height: 40px;
+    width: 80%;
     background-color: burlywood;
-    text-align: center;
+    text-align: center
 }

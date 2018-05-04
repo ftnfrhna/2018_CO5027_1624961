@@ -12,13 +12,11 @@
             <ItemTemplate>
                 <ul class="repeater">
                     <li>
-                    <p><img src="/ProductImages/<%#Eval("ProductId") %>.jpg" alt="<%#Eval("ProductId") %>" width="200" height="200" /></p>
-                    <a href="<%#Eval("ProductId", "Product.aspx?ProductId={0}")%>">
-                        <h3>Product Name:</h3><%#Eval("ProductName")%></a>
-                      <p><h3>Product Price</h3> <%#Eval("ProductPrice")%></p> 
-                       <p><h3>Quantity</h3> <%#Eval("Quantity")%></p>
+                     <p><asp:Image ID="Img" runat="server" alt="image" width="200" height="200" ImageUrl='<%#"~/ProductImages/" + Eval("ProductId")+ ".jpg"%>' /></p>
+                        <p><b><h4>Product Name:  </b><a href="<%#Eval("ProductId", "Product.aspx?ProductId={0}") %>"><%#Eval("ProductName") %></h4></a></p>
+                      <p><b><h4>Product Price:   <%#Eval("ProductPrice")%></h4></b></p> 
                     </li>
-                 </ul>
+                    </ul>
     </ItemTemplate>
             <FooterTemplate></ul></FooterTemplate>
             </asp:Repeater>
